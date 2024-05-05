@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/background.jpeg);
+}
+h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-shadow: 3px 4px 10px black;
+}
+textarea{
+    margin: 30px;
+    padding: 100px;
+    height: 100px;
+    box-shadow: 4px 5px 10px black;
+    border: none
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+    box-shadow: 4px 5px 8px black;
+    border-radius: 5px;
+}
